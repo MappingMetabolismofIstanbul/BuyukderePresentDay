@@ -1,3 +1,4 @@
+
 var config = {
     // style: 'mapbox://styles/mapbox/streets-v12',
     // leave commented to use Mapbox Standard Style
@@ -19,7 +20,7 @@ var config = {
     title: 'Büyükdere Fidanlığı’nın Yakın Dönem Dönüşümü /Recent Transformation of the Büyükdere Nursery',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '0',
@@ -226,9 +227,9 @@ var config = {
             image: 'https://i.ibb.co/kgLQtvWf/7.png',
             description: '',
             location: {
-                 center: [29.03106337251475,41.153899283541335],
-                zoom: 12,
-                pitch: 40,
+                 center: [29.0259676458343,41.15426054091219],
+                zoom: 15,
+                pitch: 0,
                 bearing: 0,
         
                 // flyTo additional controls-
@@ -239,7 +240,7 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
